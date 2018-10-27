@@ -14,8 +14,10 @@ We use a spatial and motion stream cnn with ResNet101 for modeling video informa
 * scikit-learn  0.20.0
 * cuda 9.0
 * cudnn 7.1
-
-
+##Reference Paper
+````Two-Stream Convolutional Networks for Action Recognition in Videos````
+http://papers.nips.cc/paper/5353-two-stream-convolutional-networks-for-action-recognition-in-videos.pdf
+ 
 ## Spatial input data -> rgb frames
 Download the preprocessed RGB images data directly from,
   * wget http://ftp.tugraz.at/pub/feichtenhofer/tsfusion/data/ucf101_jpegs_256.zip.001
