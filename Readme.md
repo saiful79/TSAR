@@ -54,17 +54,6 @@ For Evaluate model run,
 
 ### Motion stream
 
-Please modify the script `motion_cnn.py` in line number 42
-```
-path='path/to/the/tvl1_flow/'
-```
-Please modify the script `motion_dataloader.py` in line number 249 and 152
-```
-path='path/to/the/tvl1_flow/'
-with open('path/to/the/dataloader/dic/frame_count_motion_101.pickle','rb')
-```
-
-
 To Train unidirectional model ,
 `python motion_cnn.py`
 
