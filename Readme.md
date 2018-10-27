@@ -75,17 +75,3 @@ To Train use pretrain model and run,
 For Evaluate model run,
 
 `python motion_cnn.py --resume PATH_TO_PRETRAINED_MODEL --evaluate`
-
-
-
-##Fusion
-The Fusion method avarage two model prediction.we avarage spatial and motion model prediction use of fusion method.
-####Avarage fusion
-Please modify the script `average_fusion.py` in line number 22
-````
-path='path/to/the/ucf101/'
-````
-Run the `average_fusion.py` script and it show the avarage fusion prediction.
-
-
-
